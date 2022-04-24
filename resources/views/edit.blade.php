@@ -13,7 +13,6 @@
                 <!-- New Task Form -->
                 <form action="{{url('update/' . $task->id)}}" method="POST" class="form-horizontal">
                     @csrf
-                    {{-- @method('PUT') --}}
                     <!-- Task Name -->
                     <div class="form-group">
                         <label for="task_name" class="col-sm-3 control-label">Task</label>
@@ -38,3 +37,4 @@
 
     </div>
 </div>
+@endsection

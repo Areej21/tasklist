@@ -66,7 +66,7 @@
                                     <form action="{{url('edit/'.$task->id)}}" method="GET">
                                         @csrf
                                         <button type="submit" class="btn btn-success">
-                                            <i class="fa-btn fa-pen-to-square"></i>update
+                                            <i class="fa-btn fa-pen-to-square"></i>Edit
                                         </button>
                                     </form>
                                 </td>
